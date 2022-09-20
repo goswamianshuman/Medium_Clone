@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 function Header() {
   return (
     <header className="z-[999] flex border-b-[1.5px] sticky top-0 border-black bg-yellow-400 h-[80px] w-screen items-center justify-around ">
-      <a
+      <Link
         className="flex items-center justify-center max-w-max gap-3 font-bold text-2xl"
         href="/"
       >
@@ -13,7 +14,7 @@ function Header() {
           width={250}
           height={250}
         />
-      </a>
+      </Link>
 
       <div className="flex gap-5 items-center justify-start max-w-max">
         <ul className="hidden md:flex items-center justify-center list-none gap-5 text-sm font-semibold">
