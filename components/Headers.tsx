@@ -9,7 +9,7 @@ function Header() {
       >
         <Image
           src="/medium.png"
-          className="object-contain"
+          className="object-contain "
           alt="logo"
           width={250}
           height={250}
@@ -32,7 +32,7 @@ function Header() {
         <button className="hidden md:flex max-w-max text-black border-solid border-[1px] border-black hover:text-white hover:bg-black hover:border-none text-md font-semibold rounded-[10px] pl-6 pr-6 pt-2 pb-2 transition-all ease-out duration-300 ">
           Sign in
         </button>
-        <button className="max-w-max text-white text-md font-semibold rounded-[50px] pl-6 pr-6 pt-2 pb-2 bg-black ">
+        <button className="max-w-max text-white text-md font-semibold rounded-[50px] pl-4 pr-4 pt-2 pb-2 sm:pl-6 sm:pr-6 sm:pt-2 sm:pb-2 bg-black ">
           Get started
         </button>
       </div>
