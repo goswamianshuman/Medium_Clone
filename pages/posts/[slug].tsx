@@ -261,6 +261,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       post,
     },
-    revalidate: 60, //after 60 seconds, it'll update the page.
+    revalidate: 20, //after 20 seconds, it'll update the page.
   };
 };
